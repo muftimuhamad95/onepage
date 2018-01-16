@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Tugas</title>
+
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		
+		<div class="hl">
+		<img src="#" alt="">
+		<h1><a href="#">Muhamad Mufti 5140411288</a></h1>
+		</div>
+
+		<div id="menu" class="hr">
+			<ul class='onepage-pagination'>
+				
+				<li> <a data-index='2' href="#2">hal 2</a> </li>
+				<li> <a data-index='3' href="#3"">hal 3</a> </li>
+				<li> <a data-index='4' href="#4">hal 4</a> </li>
+				<!-- Akhir penutup dropdown -->
+			</ul>
+		</div>
+
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>ONE PAGE SCROLL</h2>
+				
+				<p><img src="img/photo1.jpg"></p>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				
+				<h2>Hal2</h2>
+				<p></p>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				
+				<h2>hal3<small> &bull; </small></h2>
+				<p></p>
+				<p></p>
+			</div>
+		</section>
+
+		<section class="page three">
+			<div class="page-container">
+				
+				<h2>hal4<small> &bull; </small></h2>
+				<p></p>
+				<p></p>
+			</div>
+		</section>
+
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>

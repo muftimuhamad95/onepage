@@ -1,0 +1,163 @@
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	font-family: 'Righteous', cursive;
+	color: white;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #DDDDDD;
+}
+small{
+	color: #18bc9c;
+}
+small a, 
+p a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #de2700;
+	padding: 20px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top:20px;
+	margin-left:80px;
+	font-family: 'Righteous', cursive;
+}
+img{
+	height: 50%;
+	width: 50%;
+	border-radius: 20px;
+
+}
+.one{
+	background-color:  #ffbd33 ;
+	
+
+}
+	.one .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: auto;
+		left: 10%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.one .page-container h2{
+			font-size: 4em;
+		}
+		.one .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.two{
+	background-color:  #dbff33 ;
+}
+	.two .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.two .page-container h2{
+			font-size: 4em;
+		}
+		.two .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.three{
+	background-color: #75ff33 ;
+}
+	.three .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.three .page-container h2{
+			font-size: 4em;
+		}
+		.three .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.hr{
+	float: right;
+	height: 100%;
+}
+.hl{
+	float: left;
+	height: 100%;
+}
+
+#menu{
+background-color: #de2700;
+height: 60px;
+font-family: 'Righteous', cursive;
+}
+/* menghilangkan style pada list */
+#menu ul{
+list-style: none;
+}
+/* mengatur posisi menu dan menghiasnya */
+#menu ul li{
+float: left;
+position: relative;
+}
+#menu ul li a{
+text-decoration: none;
+padding: 20px 20px;
+color: white;
+display: block;
+}
+/* memberikan efek warna ketika kursor diarahkan pada menu tersebut */
+#menu ul li a:hover{
+background-color: #de2700;
+color: black;
+cursor: pointer;
+}
+/* Mulai proses membuat dropdown menunya */
+#menu ul li ul{
+display:none; /* hilangkan text nya terlebih dahulu */
+}
+#menu ul li:hover ul{
+/* tampilkan text kebawah dan posisinya tetap */
+display: block;
+position: absolute;
+}
+#menu ul li:hover ul li a{
+/* memberi warna background , lebar backgorund , dan tulisan putih*/
+background-color: #de2700;
+width: 150px;
+color:white;
+}
+#menu ul li:hover ul li a:hover{
+/* efek warna ketika kursor diarahkan ke dropdown menu */
+background-color: #de2700;
+color: black;
+} 
